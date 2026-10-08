@@ -1,0 +1,18 @@
+{
+  "kind": "service",
+  "summary": "ASP.NET Core REST API in C# with SQL Server persistence using the Repository Pattern, plus unit and integration tests.",
+  "language": "C#",
+  "framework": "ASP.NET Core",
+  "runtime": ".NET",
+  "test": "dotnet test",
+  "build": "dotnet build",
+  "template": "",
+  "layout": [
+    "src/: API and application code",
+    "tests/: unit and integration tests"
+  ],
+  "packages": "A new package needs an ADR.",
+  "also": [],
+  "decided_on": "2026-10-08",
+  "adr": "docs/adr/0001-stack-service.md"
+}
